@@ -14,9 +14,6 @@ a=data[random.randint(0,data_length-1)]
 current_score=0
 end_of_game=False
 
-print(data[49])
-print(data_length)
-
 while not end_of_game:
     b=data[random.randint(0,data_length-1)]
     print(f"Compare A: {a['name']}, a {a['description']}, from {a['country']}")
